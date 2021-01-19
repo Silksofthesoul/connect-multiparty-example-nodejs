@@ -1,9 +1,5 @@
-const index = require('./indexRoute');
 const upload = require('./upload');
 
-const obj = {
-  index,
-  upload
-};
+const obj = { upload };
 
 module.exports = obj;
