@@ -1,0 +1,25 @@
+{
+  "name": "connect-multiparty-example-nodejs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "start:debug": "nodemon --inspect index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-multiparty": "^2.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs-extra": "^9.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.1",
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
